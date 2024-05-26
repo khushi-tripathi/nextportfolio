@@ -1,5 +1,8 @@
 'use client'
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import React from "react";
+import { motion } from "framer-motion";
+import { LampContainer } from "./ui/lamp";
 
 const aboutYourself = [
   {
@@ -36,13 +39,39 @@ const aboutYourself = [
 
 function About() {
   return (
-    <div className="h-[40rem] w-full  dark:default-theme justify-center  relative flex flex-col items-center overflow-hidden">
-      <h1 className="text-neutral-300 text-4xl pb-4 pt-4">About me </h1>
-      <p className=" pl-4 pr-4 text-neutral-300 flex text-center items-center justify-center w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem ab neque nulla odit fugit dolore asperiores dolores, quia velit eaque, adipisci iure fugiat. Aliquam facere deleniti iste id voluptates!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo suscipit eligendi aspernatur, ullam sapiente ratione hic quibusdam dicta voluptas non, quasi modi? Animi inventore accusamus necessitatibus. Voluptatum culpa a qui?
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis a, quo exercitationem iusto ducimus facere! Magni, dicta libero! Provident aliquam fugiat nam accusantium vero illo eaque aperiam excepturi odio illum?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam animi, quis veniam nisi culpa consequuntur distinctio voluptatem nam voluptatum illum tempore repudiandae delectus similique quas maxime nostrum corrupti veritatis dolor?
-      </p>
+    <div className="h-auto w-full  dark:bg-slate-900 justify-center  relative flex flex-col items-center overflow-hidden">
+
+      <LampContainer>
+        <motion.h1
+          initial={{ opacity: 0.5, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 0.3,
+            duration: 0.8,
+            ease: "easeInOut",
+          }}
+          className="mt-8  py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        >
+          {/* Build lamps <br /> the right way */}
+
+          <div className="text-neutral-300  pb-4  mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl pt-[12rem]">About me </div>
+
+        </motion.h1>
+      </LampContainer>
+
+      <div className=" lg:w-full w-[40rem] mx-20 p-2 lg:ml-[15rem]  items-center justify-center grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20  mt-[-15rem]  z-10">
+
+        <p className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-300 flex  mt-4 font-normal text-base md:text-lg  mx-auto text-justify   w-auto items-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem ab neque nulla odit fugit dolore asperiores dolores, quia velit eaque, adipisci iure fugiat. Aliquam facere deleniti iste id voluptates!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo suscipit eligendi aspernatur, ullam sapiente ratione hic quibusdam dicta voluptas non, quasi modi? Animi inventore accusamus necessitatibus. Voluptatum culpa a qui?
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis a, quo exercitationem iusto ducimus facere! Magni, dicta libero! Provident aliquam fugiat nam accusantium vero illo eaque aperiam excepturi odio illum?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam animi, quis veniam nisi culpa consequuntur distinctio voluptatem nam voluptatum illum tempore repudiandae delectus similique quas maxime nostrum corrupti veritatis dolor?
+        </p>
+
+        <div className="w-[20rem] h-full lg:ml-20 ml-[10rem] flex justify-center items-center">
+          <img src="courses/profile-img.jpg" alt="" className="" />
+        </div>
+      </div>
+
       <h2 className="text-3xl text-neutral-300 font-size-3bold text-center mb-8 z-10">
         Some key points about profile and academics
       </h2>
@@ -56,6 +85,7 @@ function About() {
         </div>
       </div>
     </div>
+
   )
 }
 
