@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { NavbarDemo } from "@/components/Navbar";
-// import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,16 +11,17 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children, // readonly type h -- typ script h type define kiya hua h 
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={inter.className}>
-        <NavbarDemo />
+        <div className="relative w-full flex items-center justify-center ">
+          <Navbar />
+        </div>
         {children}
-
       </body>
     </html>
   );
