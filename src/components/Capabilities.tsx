@@ -58,7 +58,7 @@ function Capabilities() {
 
   return (
     <Vortex
-      backgroundColor="default-theme"
+      backgroundColor="black"
       className="flex items-center flex-col justify-center  md:px-10  w-full h-auto"
     >
 
@@ -75,7 +75,7 @@ function Capabilities() {
               {
                 title: webinar.title,
                 description: webinar.description,
-                link: '/'
+                link: ''
               }
             ))}
           />

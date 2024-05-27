@@ -9,25 +9,27 @@ import Modal from "@/components/Modal";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect.tsx";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { AuroraBackground } from "@/components/ui/aurora-background";
+import { Vortex } from "@/components/ui/vortex";
 
 function page() {
   const [modal, setModalState] = useState<boolean>(false)
   return (
 
-    <AuroraBackground>
-      <motion.div
-        initial={{ opacity: 0.0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.3,
-          duration: 0.8,
-          ease: "easeInOut",
-        }}
-        className="relative flex flex-col gap-4 items-center justify-center px-4"
+    <div className="bg-black">
+      <Vortex
+        backgroundColor="black"
+        className="flex items-center flex-col justify-center px-2 md:px-10  w-full h-auto"
       >
         <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white pt-36">Recent Projects ({courseData.courses.length})</h1>
-        <div className="flex flex-wrap justify-center flex-col">
-          {courseData.courses.map((course) => (
+
+      </Vortex>
+
+      <div className="flex flex-wrap justify-center flex-col">
+        {courseData.courses.map((course) => (
+          <Vortex
+            backgroundColor="black"
+            className="flex items-center flex-col justify-center px-2 md:px-10  w-full h-auto"
+          >
             <div className={modal ? "flex flex-wrap items-center justify-evenly  lg:ml-[5rem]" : ""}>
               <CardContainer className="inter-var m-4 tripathi">
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
@@ -86,13 +88,13 @@ function page() {
                 : null}
 
             </div>
+          </Vortex>
 
-          ))}
+        ))}
 
-        </div>
-      </motion.div>
-    </AuroraBackground>
+      </div>
 
+    </div>
   )
 }
 

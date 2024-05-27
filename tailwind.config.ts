@@ -53,6 +53,7 @@ const config: Config = {
       colors:
       {
         'default-theme': '#370045',
+        'default-bg-dark': '#370045d6'
       },
       animation: {
         first: "moveVertical 30s ease infinite",

@@ -60,7 +60,7 @@ function About() {
         </motion.h1>
       </LampContainer>
 
-      <div className=" lg:w-full w-[40rem] mx-20 p-2 lg:ml-[15rem]  items-center justify-center grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20  mt-[-15rem]  z-10">
+      <div className=" lg:w-full w-[40rem] mx-20 p-2 lg:ml-[15rem]  items-center justify-center grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20  mt-[-20rem]  z-10">
 
         <TextGenerateEffect words={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem ab neque nulla odit fugit dolore asperiores dolores, quia velit eaque, adipisci iure fugiat. Aliquam facere deleniti iste id voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo suscipit eligendi aspernatur, ullam sapiente ratione hic quibusdam dicta voluptas non, quasi modi? Animi inventore accusamus necessitatibus. Voluptatum culpa a qui? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis a, quo exercitationem iusto ducimus facere! Magni, dicta libero! Provident aliquam fugiat nam accusantium vero illo eaque aperiam excepturi odio illum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam animi, quis veniam nisi culpa consequuntur distinctio voluptatem nam voluptatum illum tempore repudiandae delectus similique quas maxime nostrum corrupti veritatis dolor?"} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-300 flex  mt-4 font-normal text-base md:text-lg  mx-auto text-justify   w-auto items-start" />
 
