@@ -59,11 +59,11 @@ function Capabilities() {
   return (
     <Vortex
       backgroundColor="black"
-      className="flex items-center flex-col justify-center  md:px-10  w-full h-auto"
+      className="flex items-center flex-col justify-center  md:px-10  w-full h-auto "
     >
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="text-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 " >
+        <div className="text-center pt-16">
           {/* <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED WEBINARS</h2> */}
           {/* <div className="h-20 "></div> */}
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight  text-white sm:text-4xl">Proficient</p>

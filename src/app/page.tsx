@@ -9,7 +9,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-default-theme antialiased bg-grid-white/[0.05] justify-center items-center">
+    <main className="min-h-screen dark:bg-black antialiased bg-grid-white/[0.05] justify-center items-center">
       <HomeEntrySection />
       {/* <FeaturedCourses /> */}
       {/* <WhyChooseUs /> */}
