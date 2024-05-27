@@ -4,6 +4,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
 import { TextGenerateEffect } from "./ui/text-generate-effect.tsx";
+import { WobbleCard } from "./ui/wobble-card";
+import Image from "next/image";
 
 const aboutYourself = [
   {
@@ -67,8 +69,22 @@ function About() {
         {/* <p >
         </p> */}
 
+        {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full"> */}
+
+        {/* </div> */}
+
         <div className="w-[20rem] h-full lg:ml-20 ml-[10rem] flex justify-center items-center">
-          <img src="courses/profile-img.jpg" alt="" className="" />
+          <WobbleCard containerClassName="col-span-1 min-h-[300px]">
+            {/* <img src="courses/profile-img.jpg" alt="" className="" /> */}
+            <Image
+              src="/courses/profile-img.jpg"
+              width={500}
+              height={500}
+              alt="profile image"
+            // className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+            />
+          </WobbleCard>
+
         </div>
       </div>
 
