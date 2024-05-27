@@ -13,7 +13,7 @@ function MusicSchoolContactUs() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative">
+    <div id='contact' className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative">
       {' '}
       {/* Ensure the container is relative */}
       {/* BackgroundBeams with adjusted z-index */}

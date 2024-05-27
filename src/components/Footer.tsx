@@ -3,13 +3,11 @@
 function Footer() {
   return (
     <footer className="bg-slate-900 text-gray-400 py-12">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8 lg:ml-[10rem]">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music School is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent from the ground up,
-            fostering a vibrant community of musicians.
+            I am Khushi Tripathi. I am Software Engineer and I made this Portfolio websit to show case my skills and experiences. This will help me and recruiter to check the eligibility of mine and what are the things I have worked with in my professional journey.
           </p>
         </div>
         <div>
@@ -25,7 +23,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="#about"
                 className="hover:text-white transition-colors duration-300"
               >
                 About
@@ -33,15 +31,15 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/courses"
                 className="hover:text-white transition-colors duration-300"
               >
-                Courses
+                Projects
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
@@ -49,7 +47,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div>
+        {/* <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
             <a
@@ -71,16 +69,16 @@ function Footer() {
               Instagram
             </a>
           </div>
-        </div>
-        <div>
-          <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
-          <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+        </div> */}
+        <div className="col-span-2">
+          <h2 className="text-white text-lg font-semibold mb-4">Contact Me</h2>
+          <p>Madhya Pradesh, India</p>
+          <p>Bhopal 462001</p>
+          <p className="w-full">Email: khushitripathi004@gmail.com</p>
+          <p>Phone: +91-8461 8989 45</p>
         </div>
       </div>
-      <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+      <p className="text-center text-xs pt-8">© 2024 Khushi Tripathi Portfolio. All rights reserved.</p>
     </footer>
   )
 }

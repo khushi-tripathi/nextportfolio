@@ -40,7 +40,7 @@ const aboutYourself = [
 
 function About() {
   return (
-    <div className="h-auto w-full  dark:bg-slate-900 justify-center  relative flex flex-col items-center overflow-hidden">
+    <div id="about" className="h-auto w-full  dark:bg-slate-900 justify-center  relative flex flex-col items-center overflow-hidden">
 
       <LampContainer>
         <motion.h1
@@ -55,7 +55,7 @@ function About() {
         >
           {/* Build lamps <br /> the right way */}
 
-          <div className="text-neutral-300  pb-4  mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl pt-[12rem]">About me </div>
+          <div className="text-neutral-300  pb-4  mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl pt-[12rem]">About Me </div>
 
         </motion.h1>
       </LampContainer>

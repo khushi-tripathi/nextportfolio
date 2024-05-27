@@ -15,8 +15,10 @@ function page() {
   const [modal, setModalState] = useState<boolean>(false)
   return (
 
-    <div className="bg-black">
+    <div id="project" className="bg-black">
       <Vortex
+        baseHue={240}
+        particleCount={200}
         backgroundColor="black"
         className="flex items-center flex-col justify-center px-2 md:px-10  w-full h-auto"
       >
@@ -29,10 +31,15 @@ function page() {
           <Vortex
             backgroundColor="black"
             className="flex items-center flex-col justify-center px-2 md:px-10  w-full h-auto"
+            rangeY={800}
+            baseHue={240}
+            particleCount={300}
+          // className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
           >
+
             <div className={modal ? "flex flex-wrap items-center justify-evenly  lg:ml-[5rem]" : ""}>
               <CardContainer className="inter-var m-4 tripathi">
-                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-default-bg-dark dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                   <CardItem
                     translateZ="50"
                     className="text-xl font-bold text-neutral-600 dark:text-white"
