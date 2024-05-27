@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import HomeEntrySection from "@/components/HomeEntrySection";
 import Instructors from "@/components/Instructors";
 import About from "@/components/About";
-import UpcomingWebinars from "@/components/UpcomingWebinars";
+import Capabilities from "@/components/Capabilities";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       {/* <FeaturedCourses /> */}
       {/* <WhyChooseUs /> */}
       <About />
-      <UpcomingWebinars />
+      <Capabilities />
       {/* <Instructors /> */}
       <Footer />
     </main>
