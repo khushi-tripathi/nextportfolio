@@ -4,6 +4,7 @@ import { Spotlight } from "./ui/Spotlight"
 import { Button } from "./ui/moving-border";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 import { Boxes } from "./ui/background-boxes";
+import { FlipWords } from "./ui/flip-words";
 
 function HomeEntrySection() {
   const words = [
@@ -17,9 +18,10 @@ function HomeEntrySection() {
 
     },
   ];
+  const anotherWords = ["Engineer", "Developer", "Programmer", "Coder"]
   return (
     <div
-      className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0"
+      className="h-screen md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0"
     >
       <Boxes key={"box"} />
       <Spotlight
@@ -28,6 +30,11 @@ function HomeEntrySection() {
       />
       <div className="p-4 relative z-10 text-center" >
         <TypewriterEffectSmooth words={words} cursorClassName="bg-default-theme h-1" className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 justify-center text-center" />
+        <p
+          className="mt-4 font-bold text-base md:text-lg text-neutral-300 max-w-2xl mx-auto inline"
+        >Full Stack Software </p>
+        <FlipWords words={anotherWords} className="mt-4 font-bold text-base md:text-lg text-neutral-300 max-w-2xl mx-auto" />
+
         <p
           className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-2xl mx-auto"
         >Analytical, adaptable, goal-oriented, highly determined, detail-oriented professional and exceptional to analyze information in a structured and logical way. </p>
