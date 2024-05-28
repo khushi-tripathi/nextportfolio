@@ -7,6 +7,7 @@
       "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
       "price": 99.99,
       "instructor": "John Doe",
+      "detail": "Khushi Tripathi 1",
       "isFeatured": true,
       "image": "/courses/guitar.jpg"
     },
@@ -16,6 +17,7 @@
       "slug": "piano-for-beginners",
       "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
       "price": 109.99,
+      "detail": "Khushi Tripathi 2",
       "instructor": "Jane Smith",
       "isFeatured": false,
       "image": "/courses/piano.jpg"
@@ -27,6 +29,7 @@
       "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
       "price": 119.99,
       "instructor": "Emily Johnson",
+      "detail": "Khushi Tripathi 3",
       "isFeatured": true,
       "image": "/courses/vocalist.jpg"
     },
@@ -35,6 +38,7 @@
       "title": "Drumming Mastery",
       "slug": "drumming-mastery",
       "description": "Master the drums with our comprehensive course covering all skill levels.",
+      "detail": "Khushi Tripathi 4",
       "price": 129.99,
       "instructor": "Mike Brown",
       "isFeatured": false,

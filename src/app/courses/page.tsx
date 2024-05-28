@@ -5,14 +5,13 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { motion } from "framer-motion";
 
 import courseData from "@/data/music_courses.json"
-import Modal from "@/components/Modal";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect.tsx";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { Vortex } from "@/components/ui/vortex";
 
 function page() {
-  const [modal, setModalState] = useState<boolean>(false)
+  const [modal, setModalState] = useState<any>({})
   return (
 
     <div id="project" className="bg-black">
@@ -27,7 +26,7 @@ function page() {
       </Vortex>
 
       <div className="flex flex-wrap justify-center flex-col">
-        {courseData.courses.map((course) => (
+        {courseData.courses.map((course, idx) => (
           <Vortex
             backgroundColor="black"
             className="flex items-center flex-col justify-center px-2 md:px-10  w-full h-auto"
@@ -63,7 +62,12 @@ function page() {
                     />
                   </CardItem>
                   <div className="flex justify-between items-center mt-20" onClick={() => {
-                    setModalState(true)
+                    setModalState({
+                      ...modal,
+                      [idx]: {
+                        status: !modal?.[idx]?.status
+                      }
+                    })
                   }}>
                     <CardItem
                       translateZ={20}
@@ -90,7 +94,7 @@ function page() {
                   </div>
                 </CardBody>
               </CardContainer>
-              {modal ? <TextGenerateEffect words={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem ab neque nulla odit fugit dolore asperiores dolores, quia velit eaque, adipisci iure fugiat. Aliquam facere deleniti iste id voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo suscipit eligendi aspernatur, ullam sapiente ratione hic quibusdam dicta voluptas non, quasi modi? Animi inventore accusamus necessitatibus. Voluptatum culpa a qui? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis a, quo exercitationem iusto ducimus facere! Magni, dicta libero! Provident aliquam fugiat nam accusantium vero illo eaque aperiam excepturi odio illum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam animi, quis veniam nisi culpa consequuntur distinctio voluptatem nam voluptatum illum tempore repudiandae delectus similique quas maxime nostrum corrupti veritatis dolor?"} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-300 flex  mt-4 font-normal text-base md:text-lg  mx-auto text-justify items-start Khushi  w-[30rem] min-h-[20rem] border-cyan-400 border-2 border-solid" />
+              {(modal?.[idx]?.status) ? <TextGenerateEffect words={courseData?.courses?.[idx]?.detail} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-300 flex  mt-4 font-normal text-base md:text-lg  mx-auto text-justify items-start Khushi  w-[30rem] min-h-[20rem] border-cyan-400 border-2 border-solid" />
 
                 : null}
 
