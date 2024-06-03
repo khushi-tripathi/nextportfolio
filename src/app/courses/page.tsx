@@ -10,7 +10,7 @@ import { BackgroundGradientAnimation } from "@/components/ui/background-gradient
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { Vortex } from "@/components/ui/vortex";
 
-function page() {
+function Page() {
   const [modal, setModalState] = useState<any>({})
   return (
 
@@ -33,6 +33,7 @@ function page() {
             rangeY={800}
             baseHue={240}
             particleCount={300}
+            key={idx}
           // className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
           >
 
@@ -109,4 +110,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

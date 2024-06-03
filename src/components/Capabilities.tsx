@@ -12,45 +12,55 @@ function Capabilities() {
 
   const featuredWebinars = [
     {
-      title: 'Understanding Music Theory',
+      title: 'Problem Solving',
       description:
-        'Dive deep into the fundamentals of music theory and enhance your musical skills.',
-      slug: 'understanding-music-theory',
+        'Identify problem and always try to give the optimize way to solve it.',
       isFeatured: true,
     },
     {
-      title: 'The Art of Songwriting',
+      title: 'Debugging skills',
       description:
-        'Learn the craft of songwriting from experienced musicians and songwriters.',
-      slug: 'the-art-of-songwriting',
+        'I have debugging skills which help me to debug and fix the bug and issues of application ASAP.',
+      slug: 'digital-music-marketing',
+      isFeatured: true,
+    },
+
+    {
+      title: 'Communication skills',
+      description:
+        'I have good communication skills that help me to build understanding and give more clarity of work. I have active listening skills, that help me to understand other people point of view.',
       isFeatured: true,
     },
     {
-      title: 'Mastering Your Instrument',
+      title: 'Leadership Quality',
       description:
-        'Advanced techniques to master your musical instrument of choice.',
-      slug: 'mastering-your-instrument',
+        'Our main goal is to focus on quality of required work and provide deliveries on time. Leadership is something to take care of that and as a team we will work and grow together. And if we have facing any issue then try to resolve it',
       isFeatured: true,
     },
     {
-      title: 'Music Production Essentials',
+      title: 'Time Management',
       description:
-        'Get started with music production with this comprehensive overview.',
-      slug: 'music-production-essentials',
+        'Mostly deliverables are before or on time. That gives me more flexibility to manage everything',
       isFeatured: true,
     },
-    // Added two more webinars
     {
-      title: 'Live Performance Techniques',
+      title: 'Consistency',
       description:
-        'Enhance your live performance skills with expert tips and strategies.',
+        'I am consistent about my work and I have adaptibility skill that will help me to grasp any thing in less time',
       slug: 'live-performance-techniques',
       isFeatured: true,
     },
     {
-      title: 'Digital Music Marketing',
+      title: 'Attention to details',
       description:
-        'Learn how to promote your music effectively in the digital age.',
+        'Always try to focus on each and every small aspect of work.',
+      slug: 'digital-music-marketing',
+      isFeatured: true,
+    },
+    {
+      title: 'Responsible',
+      description:
+        'Responsibility and discipline are the main characteristics of developer',
       slug: 'digital-music-marketing',
       isFeatured: true,
     },

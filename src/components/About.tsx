@@ -10,33 +10,27 @@ import Image from "next/image";
 const aboutYourself = [
   {
     quote:
-      'Joining the music school transformed my understanding of music and helped me to truly discover my own sound. The instructors are world-class!',
-    name: 'Alex Johnson',
-    title: 'Guitar Student',
+      "Profile: Full Stack Developer, Main Stream: React JS, Exprience: 3 year (current)",
+    name: 'Netlink Private LTD',
+    title: 'Office Experience',
   },
   {
     quote:
-      "The community and support at this school are unmatched. I've grown not just as a pianist, but also as a performer, thanks to their comprehensive approach.",
-    name: 'Samantha Lee',
-    title: 'Piano Student',
+      "8.8 CGPA",
+    name: 'Sagar Institute of Science and Technology (SISTec)',
+    title: 'Bachelor of Technology 2018-2022',
   },
   {
     quote:
-      "This school offered me the tools and confidence to take my singing to the next level. I'm endlessly grateful for the personalized coaching.",
-    name: 'Michael Chen',
-    title: 'Vocal Student',
+      '85.4%',
+    name: 'Elite Higher Secondary School',
+    title: 'Higher Education Examination 2018',
   },
   {
     quote:
-      'As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.',
-    name: 'Emily Taylor',
-    title: 'Violin Student',
-  },
-  {
-    quote:
-      'The production courses here opened my eyes to the intricacies of music production. Highly recommend for any aspiring producers!',
-    name: 'Chris Morales',
-    title: 'Music Production Student',
+      "84%",
+    name: 'Elite Higher Secondary School',
+    title: 'Secondary Education Examination 2016',
   },
 ];
 
@@ -61,44 +55,62 @@ function About() {
 
         </motion.h1>
       </LampContainer>
+      <div className="lg:w-full w-[40rem] mx-20 p-2 lg:ml-[15rem]  items-center justify-center  mt-[-20rem]  z-10">
+        <TextGenerateEffect words={"I am Khushi Tripathi. I am full stack developer and my main stream of work or I spend my majority time on React JS. I have three years of experience and many more to count."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-[90%] pl-1 pr-1 text-neutral-300 flex  mt-4 font-normal text-base md:text-lg  text-justify items-start" />
 
-      <div className=" lg:w-full w-[40rem] mx-20 p-2 lg:ml-[15rem]  items-center justify-center grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20  mt-[-20rem]  z-10">
+        <div className="   grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-20  ">
+          <div className="lg:row-[1] row-[2]">
 
-        <TextGenerateEffect words={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem ab neque nulla odit fugit dolore asperiores dolores, quia velit eaque, adipisci iure fugiat. Aliquam facere deleniti iste id voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo suscipit eligendi aspernatur, ullam sapiente ratione hic quibusdam dicta voluptas non, quasi modi? Animi inventore accusamus necessitatibus. Voluptatum culpa a qui? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis a, quo exercitationem iusto ducimus facere! Magni, dicta libero! Provident aliquam fugiat nam accusantium vero illo eaque aperiam excepturi odio illum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam animi, quis veniam nisi culpa consequuntur distinctio voluptatem nam voluptatum illum tempore repudiandae delectus similique quas maxime nostrum corrupti veritatis dolor?"} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 text-neutral-300 flex  mt-4 font-normal text-base md:text-lg  mx-auto text-justify items-start" />
+            <TextGenerateEffect words={" Why choose me ?"} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  mt-4 font-normal text-base md:text-lg  mx-auto text-justify items-start" />
 
-        {/* <p >
-        </p> */}
+            <div className="text-zinc-400">
+              <TextGenerateEffect words={"• Create complete React Web Application."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  mt-4 font-normal text-base md:text-lg  mx-auto text-justify items-start" />
 
-        {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full"> */}
+              <TextGenerateEffect words={"• Create landing pages with React JS."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  font-normal text-base md:text-lg  mx-auto text-justify items-start" />
 
-        {/* </div> */}
+              <TextGenerateEffect words={"• Bug Fixing of your existing React Site."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  font-normal text-base md:text-lg  mx-auto text-justify items-start" />
+              <TextGenerateEffect words={"• Can create fast-performing Web App."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  font-normal text-base md:text-lg  mx-auto text-justify items-start" />
+              <TextGenerateEffect words={"• Add new features in your existing React Application."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  font-normal text-base md:text-lg  mx-auto text-justify items-start" />
+              <TextGenerateEffect words={"• Create Responsive React Application."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  font-normal text-base md:text-lg  mx-auto text-justify items-start" />
 
-        <div className="w-[20rem] h-full lg:ml-20 ml-[10rem] flex justify-center items-center">
-          <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-            {/* <img src="courses/profile-img.jpg" alt="" className="" /> */}
-            <Image
-              src="/courses/profile-img.jpg"
-              width={500}
-              height={500}
-              alt="profile image"
-            // className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
-            />
-          </WobbleCard>
+              <TextGenerateEffect words={"• Can create backend and frontend with React JS and Node JS."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  font-normal text-base md:text-lg  mx-auto text-justify items-start" />
+              <TextGenerateEffect words={"• Convert your UI Design Figma/XD to real site with React JS."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  font-normal text-base md:text-lg  mx-auto text-justify items-start" />
+              <TextGenerateEffect words={"• Will complete your work on or before deadline."} className=" lg:row-[1] row-[2]  w-[30rem] md:w-auto pl-1 pr-1 flex  font-normal text-base md:text-lg  mx-auto text-justify items-start" />
 
+            </div>
+
+          </div>
+
+          <div className="w-[20rem] h-full lg:ml-20 ml-[10rem] flex justify-center items-center">
+            <WobbleCard containerClassName="col-span-1 min-h-[300px]">
+              {/* <img src="courses/profile-img.jpg" alt="" className="" /> */}
+              <Image
+                src="/courses/profile-img.jpg"
+                width={500}
+                height={500}
+                alt="profile image"
+              // className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+              />
+            </WobbleCard>
+
+          </div>
         </div>
-      </div>
 
-      <h2 className="text-2xl text-neutral-300 font-size-bold text-center mb-8 z-10 pt-20">
-        Experience and Education
-      </h2>
-      <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8 pb-[5rem]">
-        <div className="w-full max-w-6xl">
-          <InfiniteMovingCards
-            items={aboutYourself}
-            direction="right"
-            speed="slow"
-          />
+        <div className="lg:ml-[-10rem] ">
+          <h2 className="text-2xl text-neutral-300 font-size-bold text-center mb-8 z-10 pt-20">
+            Experience and Education
+          </h2>
+          <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8 pb-[5rem]">
+            <div className="w-full max-w-6xl">
+              <InfiniteMovingCards
+                items={aboutYourself}
+                direction="right"
+                speed="slow"
+              />
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
 
