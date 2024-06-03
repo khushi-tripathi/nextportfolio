@@ -2,47 +2,51 @@
   "courses": [
     {
       "id": 1,
-      "title": "Guitar Fundamentals",
+      "title": "SOS Emergency",
       "slug": "guitar-fundamentals",
-      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "description": "SOS Emergency is a web application which provides emergency services to the owner of the vehicle.",
       "price": 99.99,
       "instructor": "John Doe",
-      "detail": "Khushi Tripathi 1",
+      "detail": "Roles and Responsibilities hjg  ",
       "isFeatured": true,
-      "image": "/courses/guitar.jpg"
+      "image": "/courses/sos.jpg",
+      "github": false
     },
     {
       "id": 2,
-      "title": "Piano for Beginners",
+      "title": "SOS Emergency Training Module",
       "slug": "piano-for-beginners",
-      "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
+      "description": "SOS Emergency Training Module is majorly used to give training to the agents of SOS Emergency Project",
       "price": 109.99,
       "detail": "Khushi Tripathi 2",
       "instructor": "Jane Smith",
       "isFeatured": false,
-      "image": "/courses/piano.jpg"
+      "image": "/courses/training.jpg",
+      "github": false
     },
     {
       "id": 3,
-      "title": "Advanced Vocal Techniques",
+      "title": "Chat Space",
       "slug": "advanced-vocal-techniques",
-      "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
+      "description": "Chat Space is the application which connect yourself with the world to interact with them via chat",
       "price": 119.99,
       "instructor": "Emily Johnson",
       "detail": "Khushi Tripathi 3",
       "isFeatured": true,
-      "image": "/courses/vocalist.jpg"
+      "image": "/courses/chat-space.jpg",
+      "github": true
     },
     {
       "id": 4,
-      "title": "Drumming Mastery",
+      "title": "Portfolio Project",
       "slug": "drumming-mastery",
-      "description": "Master the drums with our comprehensive course covering all skill levels.",
+      "description": "This portfolio website is the deployed version of this project",
       "detail": "Khushi Tripathi 4",
       "price": 129.99,
       "instructor": "Mike Brown",
       "isFeatured": false,
-      "image": "/courses/drumming.jpg"
+      "image": "/courses/portfolio.jpg",
+      "github": true
     }
   ]
 }

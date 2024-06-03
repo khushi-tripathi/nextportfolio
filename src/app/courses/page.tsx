@@ -37,7 +37,7 @@ function Page() {
           // className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
           >
 
-            <div className={modal ? "flex flex-wrap items-center justify-evenly  lg:ml-[5rem]" : ""}>
+            <div className={modal?.[idx]?.status ? "flex flex-wrap items-center justify-evenly  lg:ml-[5rem]" : ""}>
               <CardContainer className="inter-var m-4 tripathi">
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-default-bg-dark dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                   <CardItem
@@ -63,20 +63,15 @@ function Page() {
                     />
                   </CardItem>
                   <div className="flex justify-between items-center mt-20" onClick={() => {
-                    setModalState({
-                      ...modal,
-                      [idx]: {
-                        status: !modal?.[idx]?.status
-                      }
-                    })
+
                   }}>
-                    <CardItem
+                    {course?.github ? <CardItem
                       translateZ={20}
                       as="button"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
-                      Try now →
-                    </CardItem>
+                      Go To GitHub → {course.github}
+                    </CardItem> : null}
                     <CardItem
 
                       translateZ={20}
@@ -85,10 +80,15 @@ function Page() {
                       className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
                       <div className="" onClick={() => {
-                        debugger
-                        setModalState(true)
+
+                        setModalState({
+                          ...modal,
+                          [idx]: {
+                            status: !modal?.[idx]?.status
+                          }
+                        })
                       }}>
-                        Sign up
+                        {modal?.[idx]?.status ? 'Less' : 'Know More'}
                       </div>
 
                     </CardItem>
