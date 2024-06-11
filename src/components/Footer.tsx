@@ -2,8 +2,8 @@
 
 function Footer() {
   return (
-    <footer className="bg-slate-900 text-gray-400 py-12">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8 lg:ml-[10rem]">
+    <footer className="bg-slate-900 text-gray-400 p-4 text-xs">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-[5rem] lg:px-8 lg:ml-[10rem]">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
@@ -70,7 +70,7 @@ function Footer() {
             </a>
           </div>
         </div> */}
-        <div className="col-span-2">
+        <div className="">
           <h2 className="text-white text-lg font-semibold mb-4">Contact Me</h2>
           <p>Madhya Pradesh, India</p>
           <p>Bhopal 462001</p>

@@ -7,7 +7,20 @@
       "description": "SOS Emergency is a web application which provides emergency services to the owner of the vehicle.",
       "price": 99.99,
       "instructor": "John Doe",
-      "detail": "Roles and Responsibilities hjg  ",
+      "detail": {
+        "clientName": "SiriusXM",
+        "firstPara": "",
+        "rolesAndRes": [
+          "Analysis of requirements in depth.",
+          "Design User Interface with the expected format.",
+          "Connectivity between frontend and backend.",
+          "Fetching API and data integration",
+          "Socket connections from frontend side.",
+          "Developing multiple screens of the application in React JS."
+        ],
+        "tools": "Tools: Visual Studio Code, GIT, Bitbucket, Jira, Confluence, Postman.",
+        "tech": "Used skills and technologies: React JS, JavaScript, SCSS, Node Packages, Agile methodology."
+      },
       "isFeatured": true,
       "image": "/courses/sos.jpg",
       "github": false
@@ -18,7 +31,12 @@
       "slug": "piano-for-beginners",
       "description": "SOS Emergency Training Module is majorly used to give training to the agents of SOS Emergency Project",
       "price": 109.99,
-      "detail": "Khushi Tripathi 2",
+      "detail": {
+        "firstPara": "",
+        "rolesAndRes": [],
+        "tools": "",
+        "tech": ""
+      },
       "instructor": "Jane Smith",
       "isFeatured": false,
       "image": "/courses/training.jpg",
@@ -31,7 +49,12 @@
       "description": "Chat Space is the application which connect yourself with the world to interact with them via chat",
       "price": 119.99,
       "instructor": "Emily Johnson",
-      "detail": "Khushi Tripathi 3",
+      "detail": {
+        "firstPara": "",
+        "rolesAndRes": [],
+        "tools": "",
+        "tech": ""
+      },
       "isFeatured": true,
       "image": "/courses/chat-space.jpg",
       "github": true
@@ -41,11 +64,16 @@
       "title": "Portfolio Project",
       "slug": "drumming-mastery",
       "description": "This portfolio website is the deployed version of this project",
-      "detail": "Khushi Tripathi 4",
       "price": 129.99,
       "instructor": "Mike Brown",
       "isFeatured": false,
       "image": "/courses/portfolio.jpg",
+      "detail": {
+        "firstPara": "",
+        "rolesAndRes": [],
+        "tools": "",
+        "tech": ""
+      },
       "github": true
     }
   ]

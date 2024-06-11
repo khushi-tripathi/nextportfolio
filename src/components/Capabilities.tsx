@@ -76,7 +76,7 @@ function Capabilities() {
         <div className="text-center pt-16">
           {/* <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED WEBINARS</h2> */}
           {/* <div className="h-20 "></div> */}
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight  text-white sm:text-4xl">Proficient</p>
+          <p className="mt-2 text-xl leading-8 font-extrabold tracking-tight  text-white sm:text-4xl">Proficient</p>
         </div>
 
         <div className=" mb-20">
