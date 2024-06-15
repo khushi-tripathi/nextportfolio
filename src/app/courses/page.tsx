@@ -9,6 +9,7 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect.tsx";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { Vortex } from "@/components/ui/vortex";
+import ProjectDetail from "./ProjectDetail";
 
 function Page() {
   const [modal, setModalState] = useState<any>({})
@@ -95,7 +96,7 @@ function Page() {
                   </div>
                 </CardBody>
               </CardContainer>
-              {(modal?.[idx]?.status) ? <TextGenerateEffect words={courseData?.courses?.[idx]?.detail} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-300 flex  mt-4 font-normal text-base md:text-lg  mx-auto text-justify items-start Khushi  w-[30rem] min-h-[20rem] border-cyan-400 border-2 border-solid" />
+              {(modal?.[idx]?.status) ? <ProjectDetail detail={courseData?.courses?.[idx]?.detail} project={courseData?.courses?.[idx]} />
 
                 : null}
 

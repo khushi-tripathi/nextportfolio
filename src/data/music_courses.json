@@ -3,14 +3,13 @@
     {
       "id": 1,
       "title": "SOS Emergency",
-      "slug": "guitar-fundamentals",
       "description": "SOS Emergency is a web application which provides emergency services to the owner of the vehicle.",
-      "price": 99.99,
-      "instructor": "John Doe",
       "detail": {
         "clientName": "SiriusXM",
         "firstPara": "",
         "rolesAndRes": [
+          "Database connectivity from backend (CRUD Operations).",
+          "Critical part of frontend integration.",
           "Analysis of requirements in depth.",
           "Design User Interface with the expected format.",
           "Connectivity between frontend and backend.",
@@ -18,61 +17,68 @@
           "Socket connections from frontend side.",
           "Developing multiple screens of the application in React JS."
         ],
-        "tools": "Tools: Visual Studio Code, GIT, Bitbucket, Jira, Confluence, Postman.",
-        "tech": "Used skills and technologies: React JS, JavaScript, SCSS, Node Packages, Agile methodology."
+        "tools": " Visual Studio Code, GIT, Bitbucket, Jira, Confluence, Postman.",
+        "tech": "React JS, JavaScript, SCSS, Node Packages, Agile methodology."
       },
-      "isFeatured": true,
       "image": "/courses/sos.jpg",
       "github": false
     },
     {
       "id": 2,
       "title": "SOS Emergency Training Module",
-      "slug": "piano-for-beginners",
       "description": "SOS Emergency Training Module is majorly used to give training to the agents of SOS Emergency Project",
-      "price": 109.99,
       "detail": {
         "firstPara": "",
-        "rolesAndRes": [],
-        "tools": "",
-        "tech": ""
+        "rolesAndRes": [
+          "Analysis of requirements in depth.",
+          "Design User Interface with the expected format.",
+          "Connectivity between frontend and backend.",
+          "Fetching API and data integration.",
+          "Socket connections from frontend side.",
+          "Developing multiple screens of the application in React JS."
+        ],
+        "tools": "Visual Studio Code, GIT, Bitbucket, Jira, Confluence, Postman.",
+        "tech": "React JS, JavaScript, SCSS, Node Packages, Agile methodology."
       },
-      "instructor": "Jane Smith",
-      "isFeatured": false,
       "image": "/courses/training.jpg",
       "github": false
     },
     {
       "id": 3,
       "title": "Chat Space",
-      "slug": "advanced-vocal-techniques",
-      "description": "Chat Space is the application which connect yourself with the world to interact with them via chat",
-      "price": 119.99,
-      "instructor": "Emily Johnson",
+      "description": "Chat Space- Stay Connected, Anywhere, Anytime: Your Ultimate Chat Companion",
       "detail": {
-        "firstPara": "",
-        "rolesAndRes": [],
-        "tools": "",
-        "tech": ""
+        "firstPara": "This is your go-to destination for seamless communication. Whether you're connecting with friends, family, or colleagues, our intuitive platform ensures smooth conversations anytime, anywhere. With robust features, including secure messaging, customizable group chats, and effortless file sharing, staying in touch has never been easier. Join our vibrant community and experience the future of communication today.",
+        "rolesAndRes": [
+          "Database connectivity from node js backend (CRUD Operations).",
+          "Design User Interface with the expected format.",
+          "Analysis of requirements in depth.",
+          "Connectivity between frontend and backend.",
+          "Fetching API and data integration.",
+          "Socket connections from frontend side.",
+          "Developing multiple screens of the application in React JS."
+        ],
+        "tools": "Visual Studio Code, GIT, MySQL Workbench, Clever Cloud - Console, Render, Netlify",
+        "tech": "React JS, JavaScript, SCSS, Node Packages- Socket IO, Axios, Emoji-picker-react, Cloudinary"
       },
-      "isFeatured": true,
       "image": "/courses/chat-space.jpg",
       "github": true
     },
     {
       "id": 4,
       "title": "Portfolio Project",
-      "slug": "drumming-mastery",
       "description": "This portfolio website is the deployed version of this project",
-      "price": 129.99,
-      "instructor": "Mike Brown",
-      "isFeatured": false,
       "image": "/courses/portfolio.jpg",
       "detail": {
         "firstPara": "",
-        "rolesAndRes": [],
-        "tools": "",
-        "tech": ""
+        "rolesAndRes": [
+          "Analysis of requirements in depth.",
+          "Design User Interface with the expected format.",
+          "Developing multiple screens of the application in React JS.",
+          "Use Animations to enhance user experience."
+        ],
+        "tools": "Visual Studio Code, GIT, Netlify",
+        "tech": "React JS, JavaScript, Typescript, Tailwind CSS, Aceternity UI"
       },
       "github": true
     }

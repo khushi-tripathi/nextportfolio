@@ -9,7 +9,7 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl min-w-[23rem] ml-[1.4rem] mx-auto z-50 ", className)}
+      className={cn("fixed top-10 inset-x-0 max-w-xl min-w-[23rem] ml-[1.4rem] mx-auto z-50 ", className)}
     >
       <Menu setActive={setActive}>
         <Link href={"/"}>
@@ -18,17 +18,12 @@ function Navbar({ className }: { className?: string }) {
           </MenuItem>
         </Link>
 
-        <Link href={"/courses"}>
-          <MenuItem setActive={setActive} active={active} item="Projects">
+        <Link href={"/courses"} className="">
+          <MenuItem setActive={setActive} active={active} item="Projects" className="ml-24">
 
           </MenuItem>
         </Link>
 
-        <Link href={"/contact"}>
-          <MenuItem setActive={setActive} active={active} item="Contact Me">
-
-          </MenuItem>
-        </Link>
       </Menu>
     </div>
   )

@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import { cn } from "@/utils/cn";
 
 const transition = {
   type: "spring",
@@ -18,14 +19,19 @@ export const MenuItem = ({
   active,
   item,
   children,
+  className,
 }: {
   setActive: (item: string) => void;
   active: string | null;
   item: string;
   children?: React.ReactNode;
+  className?: string;
 }) => {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative ">
+    <div onMouseEnter={() => setActive(item)} className={cn(
+      "relative",
+      className
+    )} >
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
@@ -70,7 +76,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full boder  dark:bg-slate-900 border-[0.2px] dark:border-white/[0.3] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="relative rounded-full boder  dark:bg-slate-900 border-[0.2px] dark:border-white/[0.3] bg-white shadow-input flex  justify-center space-x-4 px-8 py-6 "
     >
       {children}
     </nav>
