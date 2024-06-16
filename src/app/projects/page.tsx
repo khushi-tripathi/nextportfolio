@@ -2,12 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import { motion } from "framer-motion";
-
-import courseData from "@/data/music_courses.json"
-import { TextGenerateEffect } from "@/components/ui/text-generate-effect.tsx";
-import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
-import { AuroraBackground } from "@/components/ui/aurora-background";
+import projectData from "@/data/projects.json"
 import { Vortex } from "@/components/ui/vortex";
 import ProjectDetail from "./ProjectDetail";
 
@@ -22,12 +17,12 @@ function Page() {
         backgroundColor="black"
         className="flex items-center flex-col justify-center px-2 md:px-10  w-full h-auto"
       >
-        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white pt-36">Recent Projects ({courseData.courses.length})</h1>
+        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white pt-36">Recent projectData ({projectData.projects.length})</h1>
 
       </Vortex>
 
       <div className="flex flex-wrap justify-center flex-col">
-        {courseData.courses.map((course, idx) => (
+        {projectData.projects.map((course, idx) => (
           <Vortex
             backgroundColor="black"
             className="flex items-center flex-col justify-center px-2 md:px-10  w-full h-auto"
@@ -96,7 +91,7 @@ function Page() {
                   </div>
                 </CardBody>
               </CardContainer>
-              {(modal?.[idx]?.status) ? <ProjectDetail detail={courseData?.courses?.[idx]?.detail} project={courseData?.courses?.[idx]} />
+              {(modal?.[idx]?.status) ? <ProjectDetail detail={projectData?.projects?.[idx]?.detail} project={projectData?.projects?.[idx]} />
 
                 : null}
 

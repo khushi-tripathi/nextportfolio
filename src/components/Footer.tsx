@@ -31,7 +31,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="/courses"
+                href="/projects"
                 className="hover:text-white transition-colors duration-300"
               >
                 Projects

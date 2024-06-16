@@ -3,11 +3,6 @@ import React from 'react'
 
 export default function ProjectDetail({ detail, project }: any) {
   return (
-    // clientName: string;
-    // firstPara: string;
-    // rolesAndRes: string[];
-    // tools: string;
-    // tech: string;
     <div className="w-[50rem] min-h-[20rem] ml-[8rem] mt-[2rem]  border-cyan-400 border-2 border-solid">
 
       <div className=" ">

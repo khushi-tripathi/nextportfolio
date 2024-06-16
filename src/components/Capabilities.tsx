@@ -1,11 +1,6 @@
 'use client'
-import Link from "next/link"
-
-import { motion } from "framer-motion";
 import React from "react";
-import { AuroraBackground } from "./ui/aurora-background";
 import { HoverEffect } from "./ui/card-hover-effect";
-import { BackgroundGradientAnimation } from "./ui/background-gradient-animation";
 import { Vortex } from "./ui/vortex";
 
 function Capabilities() {

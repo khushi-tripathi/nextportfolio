@@ -39,7 +39,7 @@ function HomeEntrySection() {
           className="mt-4 font-normal text-sm md:text-lg text-neutral-300 max-w-2xl mx-auto"
         >Analytical, adaptable, goal-oriented, highly determined, detail-oriented professional and exceptional to analyze information in a structured and logical way. </p>
         <div className="mt-4">
-          <Link href={"/courses"}>
+          <Link href={"/projects"}>
             <Button
               borderRadius="1.75rem"
               className="bg-white  dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
