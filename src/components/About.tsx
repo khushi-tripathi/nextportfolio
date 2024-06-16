@@ -49,7 +49,6 @@ function About() {
           }}
           className="mt-8  py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
         >
-          {/* Build lamps <br /> the right way */}
 
           <div className="text-neutral-300  pb-4  mt-2 text-xl leading-8 font-extrabold tracking-tight sm:text-4xl pt-[12rem]">About Me </div>
 
@@ -84,13 +83,11 @@ function About() {
 
           <div className="w-[15rem] md:mt-[2rem] h-full ml-[11rem] md:w-[18rem]   lg:ml-[10rem] lg:w-[20rem] flex justify-center  items-start">
             <WobbleCard containerClassName="col-span-1 ">
-              {/* <img src="courses/profile-img.jpg" alt="" className="" /> */}
               <Image
                 src="/courses/profile-img.jpg"
                 width={500}
                 height={500}
                 alt="profile image"
-              // className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
               />
             </WobbleCard>
 

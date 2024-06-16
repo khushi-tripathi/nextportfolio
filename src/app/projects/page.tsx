@@ -30,7 +30,6 @@ function Page() {
             baseHue={240}
             particleCount={300}
             key={idx}
-          // className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
           >
 
             <div className={modal?.[idx]?.status ? "flex flex-wrap items-center justify-evenly  lg:ml-[5rem]" : ""}>
