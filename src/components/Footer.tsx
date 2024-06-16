@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 
 function Footer() {
   return (
@@ -72,10 +72,12 @@ function Footer() {
         </div> */}
         <div className="">
           <h2 className="text-white text-lg font-semibold mb-4">Contact Me</h2>
+          <p className="w-full hover:text-white transition-colors duration-300 cursor-pointer">Email: khushitripathi004@gmail.com</p>
+          <Link className="hover:text-white transition-colors duration-300 w-full cursor-pointer" target="_blank" href={"https://github.com/khushi-tripathi"}> GitHub: https://github.com/khushi-tripathi </Link>
+          <Link className=" hover:text-white transition-colors duration-300 w-full cursor-pointer block" target="_blank" href={"https://www.linkedin.com/in/khushi-tripathi-885a881b1/"}>LinkedIn: https://www.linkedin.com/in/khushi-tripathi-885a881b1/ </Link>
+          <p>Phone: +91-8461 8989 45</p>
           <p>Madhya Pradesh, India</p>
           <p>Bhopal 462001</p>
-          <p className="w-full">Email: khushitripathi004@gmail.com</p>
-          <p>Phone: +91-8461 8989 45</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">© 2024 Khushi Tripathi Portfolio. All rights reserved.</p>

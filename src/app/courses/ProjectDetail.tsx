@@ -2,7 +2,6 @@ import { TextGenerateEffect } from '@/components/ui/text-generate-effect.tsx'
 import React from 'react'
 
 export default function ProjectDetail({ detail, project }: any) {
-  debugger
   return (
     // clientName: string;
     // firstPara: string;
