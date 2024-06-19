@@ -17,7 +17,7 @@ function Page() {
         backgroundColor="black"
         className="flex items-center flex-col justify-center px-2 md:px-10  w-full h-auto"
       >
-        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white pt-36">Recent projectData ({projectData.projects.length})</h1>
+        <h1 className="text-lg sm:text-2xl md:text-4xl lg:text-6xl text-center font-sans font-bold mb-8 text-white pt-36">Recent Projects ({projectData.projects.length})</h1>
 
       </Vortex>
 

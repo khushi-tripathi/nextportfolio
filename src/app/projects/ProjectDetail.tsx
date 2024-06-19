@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function ProjectDetail({ detail, project }: any) {
   return (
-    <div className="w-[50rem] min-h-[20rem] ml-[8rem] mt-[2rem]  border-cyan-400 border-2 border-solid">
+    <div className="max-w-[50rem] min-h-[20rem] lg:ml-[8rem] mt-[2rem]">
 
       <div className=" ">
         <TextGenerateEffect words={"Project Name: "} className="inline-block pl-1 pr-1 text-neutral-300   font-bold text-base md:text-lg  mx-auto text-justify items-start"
