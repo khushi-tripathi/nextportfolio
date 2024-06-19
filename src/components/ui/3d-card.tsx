@@ -85,6 +85,7 @@ export const CardBody = ({
 }) => {
   return (
     <div
+      // wdith change
       className={cn(
         "h-96 w-96 [transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
         className

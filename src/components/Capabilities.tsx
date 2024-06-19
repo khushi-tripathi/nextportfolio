@@ -64,7 +64,7 @@ function Capabilities() {
   return (
     <Vortex
       backgroundColor="black"
-      className="flex items-center flex-col justify-center  md:px-10  w-full h-auto "
+      className="flex items-center flex-col justify-center  md:pr-12  w-full h-[30%] "
     >
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 " >

@@ -242,9 +242,9 @@ export const Vortex = (props: VortexProps) => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 ref={containerRef}
-                className="absolute h-auto w-[97vw] inset-0 z-0 bg-transparent flex items-center justify-center"
+                className="absolute h-auto  inset-0 z-0 bg-transparent flex items-center justify-center"
             >
-                <canvas ref={canvasRef}></canvas>
+                <canvas id="khushi" ref={canvasRef} style={{ height: '45vh', width: '100vw' }} ></canvas>
             </motion.div>
 
             <div className={cn("relative z-10", props.className)}>
