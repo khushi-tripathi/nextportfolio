@@ -11,50 +11,51 @@
           "Database connectivity from backend (CRUD Operations).",
           "Critical part of frontend integration.",
           "Analysis of requirements in depth.",
-          "Design User Interface with the expected format.",
+          "Design react pages similar to the expected user interface (UI).",
           "Connectivity between frontend and backend.",
-          "Fetching API and data integration",
-          "Socket connections from frontend side.",
-          "Developing multiple screens of the application in React JS."
+          "Fetching APIs and data integration",
+          "Socket connections from the frontend side.",
+          "Developing multiple screens of application in React JS."
         ],
-        "tools": " Visual Studio Code, GIT, Bitbucket, Jira, Confluence, Postman.",
-        "tech": "React JS, JavaScript, SCSS, Node Packages, Agile methodology."
+        "tools": " Visual Studio Code, GIT, BitBucket, Jira, Confluence, Postman.",
+        "tech": "React JS, JavaScript, SCSS, Node Packages, Agile Methodology."
       },
       "image": "/courses/sos.jpg",
-      "github": false
+      "github": ""
     },
     {
       "id": 2,
       "title": "SOS Emergency Training Module",
-      "description": "SOS Emergency Training Module is majorly used to give training to the agents of SOS Emergency Project",
+      "description": "SOS Emergency Training Module is majorly for giving trainings to the agents of SOS Emergency Project",
       "detail": {
+        "clientName": "SiriusXM",
         "firstPara": "",
         "rolesAndRes": [
           "Analysis of requirements in depth.",
-          "Design User Interface with the expected format.",
+          "Design UI pages with the expected format.",
           "Connectivity between frontend and backend.",
-          "Fetching API and data integration.",
+          "Fetching APIs and data integration.",
           "Socket connections from frontend side.",
-          "Developing multiple screens of the application in React JS."
+          "Developing multiple screens of application in React JS."
         ],
-        "tools": "Visual Studio Code, GIT, Bitbucket, Jira, Confluence, Postman.",
-        "tech": "React JS, JavaScript, SCSS, Node Packages, Agile methodology."
+        "tools": "Visual Studio Code, GIT, BitBucket, Jira, Confluence, Postman.",
+        "tech": "React JS, JavaScript, SCSS, Node Packages, Agile Methodology."
       },
       "image": "/courses/training.jpg",
-      "github": false
+      "github": ""
     },
     {
       "id": 3,
       "title": "Chat Space",
-      "description": "Chat Space- Stay Connected, Anywhere, Anytime: Your Ultimate Chat Companion",
+      "description": "Chat Space - Stay Connected, Anywhere, Anytime: Your Ultimate Chat Companion",
       "detail": {
         "firstPara": "This is your go-to destination for seamless communication. Whether you're connecting with friends, family, or colleagues, our intuitive platform ensures smooth conversations anytime, anywhere. With robust features, including secure messaging, customizable group chats, and effortless file sharing, staying in touch has never been easier. Join our vibrant community and experience the future of communication today.",
         "rolesAndRes": [
-          "Database connectivity from node js backend (CRUD Operations).",
-          "Design User Interface with the expected format.",
+          "Database connectivity from the node js backend (CRUD Operations).",
+          "Design user interface with the expected format.",
           "Analysis of requirements in depth.",
           "Connectivity between frontend and backend.",
-          "Fetching API and data integration.",
+          "Fetching APIs and data integration.",
           "Socket connections from frontend side.",
           "Developing multiple screens of the application in React JS."
         ],
@@ -62,7 +63,7 @@
         "tech": "React JS, JavaScript, SCSS, Node Packages- Socket IO, Axios, Emoji-picker-react, Cloudinary"
       },
       "image": "/courses/chat-space.jpg",
-      "github": true
+      "github": "https://github.com/khushi-tripathi/chat-space"
     },
     {
       "id": 4,
@@ -73,14 +74,14 @@
         "firstPara": "",
         "rolesAndRes": [
           "Analysis of requirements in depth.",
-          "Design User Interface with the expected format.",
+          "Design user friendly interface with the expected format.",
           "Developing multiple screens of the application in React JS.",
           "Use Animations to enhance user experience."
         ],
         "tools": "Visual Studio Code, GIT, Netlify",
         "tech": "React JS, JavaScript, Typescript, Tailwind CSS, Aceternity UI"
       },
-      "github": true
+      "github": "https://github.com/khushi-tripathi/nextportfolio"
     }
   ]
 }

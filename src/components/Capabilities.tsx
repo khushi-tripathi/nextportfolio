@@ -9,11 +9,11 @@ function Capabilities() {
     {
       title: 'Problem Solving',
       description:
-        'Identify problem and always try to give the optimize way to solve it.',
+        'Identify problem and then always try to give the optimize way to solve it. My approach combines technical expertise with creativity and persistence, ensuring that I can navigate any obstacle to achieve optimal outcomes in software development.',
       isFeatured: true,
     },
     {
-      title: 'Debugging skills',
+      title: 'Debugging Skills',
       description:
         'I have debugging skills which help me to debug and fix the bug and issues of application ASAP.',
       slug: 'digital-music-marketing',
@@ -21,32 +21,32 @@ function Capabilities() {
     },
 
     {
-      title: 'Communication skills',
+      title: 'Communication Skills',
       description:
-        'I have good communication skills that help me to build understanding and give more clarity of work. I have active listening skills, that help me to understand other people point of view.',
+        "I have good communication skills that help me to build understanding and give more clarity of work. I have active listening skills, that help me to understand other's point of view.",
       isFeatured: true,
     },
     {
       title: 'Leadership Quality',
       description:
-        'Our main goal is to focus on quality of required work and provide deliveries on time. Leadership is something to take care of that and as a team we will work and grow together. And if we have facing any issue then try to resolve it',
+        'Our main goal is to focus on quality of required work and provide deliveries on time. Leadership is something to take care of that and as a team we will work and grow together. And if we are facing any issues then try to resolve it collaboratively.',
       isFeatured: true,
     },
     {
       title: 'Time Management',
       description:
-        'Mostly deliverables are before or on time. That gives me more flexibility to manage everything',
+        'Mostly deliverables are before or on time. That gives me more flexibility to manage everything.',
       isFeatured: true,
     },
     {
       title: 'Consistency',
       description:
-        'I am consistent about my work and I have adaptibility skill that will help me to grasp any thing in less time',
+        'I am consistent about my work and I am adaptable that will help me to grasp any thing in short duration.',
       slug: 'live-performance-techniques',
       isFeatured: true,
     },
     {
-      title: 'Attention to details',
+      title: 'Attention To Details',
       description:
         'Always try to focus on each and every small aspect of work.',
       slug: 'digital-music-marketing',
@@ -55,7 +55,7 @@ function Capabilities() {
     {
       title: 'Responsible',
       description:
-        'Responsibility and discipline are the main characteristics of developer',
+        'Responsibility and discipline are the main characteristics of the developer.',
       slug: 'digital-music-marketing',
       isFeatured: true,
     },
