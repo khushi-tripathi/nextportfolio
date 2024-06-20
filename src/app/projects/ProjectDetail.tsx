@@ -32,7 +32,9 @@ export default function ProjectDetail({ detail, project }: any) {
 
       <TextGenerateEffect words={"Roles and Responsibilities: "} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-200   font-bold text-base   mx-auto text-justify items-start" />
 
-      {detail?.rolesAndRes?.map((item: string) => { return <TextGenerateEffect words={item} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-200 flex font-normal text-base   mx-auto text-justify items-start" /> })}
+      {detail?.rolesAndRes?.map((item: string) => {
+        return <TextGenerateEffect key={item} words={item} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-200 flex font-normal text-base   mx-auto text-justify items-start" />
+      })}
 
     </div>
   )
