@@ -18,7 +18,7 @@
           "Developing multiple screens of application in React JS."
         ],
         "tools": " Visual Studio Code, GIT, BitBucket, Jira, Confluence, Postman.",
-        "tech": "React JS, JavaScript, SCSS, Node Packages, Agile Methodology."
+        "tech": "React JS, JavaScript, SCSS, ANTD, Material UI Icons, Node Packages, Socket IO, React Flow, Agile Methodology."
       },
       "image": "/courses/sos.jpg",
       "github": ""
@@ -39,7 +39,7 @@
           "Developing multiple screens of application in React JS."
         ],
         "tools": "Visual Studio Code, GIT, BitBucket, Jira, Confluence, Postman.",
-        "tech": "React JS, JavaScript, SCSS, Node Packages, Agile Methodology."
+        "tech": "React JS, JavaScript, SCSS, ANTD, Material UI Icons, Node Packages, Socket IO, Agile Methodology."
       },
       "image": "/courses/training.jpg",
       "github": ""
