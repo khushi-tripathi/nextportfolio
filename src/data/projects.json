@@ -3,15 +3,14 @@
     {
       "id": 1,
       "title": "SOS Emergency",
-      "description": "SOS Emergency is a web application which provides emergency services to the owner of the vehicle.",
+      "description": "SOS Emergency is a web-based application that delivers emergency services directly to vehicle owners.",
       "detail": {
-        "clientName": "SiriusXM",
+        "clientName": "",
         "firstPara": "",
         "rolesAndRes": [
           "Database connectivity from backend (CRUD Operations).",
           "Critical part of frontend integration.",
           "Analysis of requirements in depth.",
-          "Design react pages similar to the expected user interface (UI).",
           "Connectivity between frontend and backend.",
           "Fetching APIs and data integration",
           "Socket connections from the frontend side.",
@@ -20,15 +19,15 @@
         "tools": " Visual Studio Code, GIT, BitBucket, Jira, Confluence, Postman.",
         "tech": "React JS, JavaScript, SCSS, Ant Design(antd), Material UI Icons, Node Packages, Socket IO, React Flow, Agile Methodology."
       },
-      "image": "/courses/sos.jpg",
+      "image": "/projects/sos.jpg",
       "github": ""
     },
     {
       "id": 2,
       "title": "SOS Emergency Training Module",
-      "description": "SOS Emergency Training Module is majorly for giving trainings to the agents of SOS Emergency Project",
+      "description": "The SOS Emergency Training Module primarily focuses on providing training to agents involved in the SOS Emergency Project.",
       "detail": {
-        "clientName": "SiriusXM",
+        "clientName": "",
         "firstPara": "",
         "rolesAndRes": [
           "Analysis of requirements in depth.",
@@ -41,7 +40,7 @@
         "tools": "Visual Studio Code, GIT, BitBucket, Jira, Confluence, Postman.",
         "tech": "React JS, JavaScript, SCSS, Ant Design(antd), Material UI Icons, Node Packages, Socket IO, Agile Methodology."
       },
-      "image": "/courses/training.jpg",
+      "image": "/projects/training.jpg",
       "github": ""
     },
     {
@@ -62,14 +61,14 @@
         "tools": "Visual Studio Code, GIT, MySQL Workbench, Clever Cloud - Console, Render, Netlify",
         "tech": "React JS, JavaScript, SCSS, Ant Design(antd), Node Packages- Socket IO, Axios, Emoji-picker-react, Cloudinary"
       },
-      "image": "/courses/chat-space.jpg",
+      "image": "/projects/chat-space.jpg",
       "github": "https://github.com/khushi-tripathi/chat-space"
     },
     {
       "id": 4,
       "title": "Portfolio Project",
-      "description": "This portfolio website is the deployed version of this project",
-      "image": "/courses/portfolio.jpg",
+      "description": "The portfolio website you see here is the live version of this project.",
+      "image": "/projects/portfolio.jpg",
       "detail": {
         "firstPara": "",
         "rolesAndRes": [

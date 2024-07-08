@@ -54,34 +54,35 @@ function About() {
 
         </motion.h1>
       </LampContainer>
-      <div className=" w-full mx-20 p-2 items-center justify-center  mt-[-20rem]  z-10">
-        <TextGenerateEffect words={"My name is Khushi Tripathi. I am experienced React Developer with three years of hands-on experience in designing and developing user interfaces, testing, and debugging React applications. Proven ability to collaborate with cross-functional teams to define, design, and ship new features. Skilled in translating UI/UX design wireframes into high-quality code and optimizing components for maximum performance across devices."} className=" lg:row-[1] row-[2]   mb-[3rem] pl-1 pr-1 text-neutral-300 flex  mt-4 font-normal   md:text-lg  text-justify items-start p-[2rem]"
+      <div className=" w-full mx-20  items-center justify-center  mt-[-20rem]  z-10">
+        <TextGenerateEffect words={"I am Khushi Tripathi, an experienced React Developer with more than 3 years of hands-on experience specializing in the design, development, precise testing, and troubleshooting of React applications. I excel in working collaboratively across teams to define project requirements, design intuitive features, and implement solutions that enhance user experience. Skilled in converting UI/UX wireframes into responsive, high-performance code to deliver seamless experiences across devices."} className=" lg:row-[1] row-[2]   mb-[3rem] pl-1 pr-1 text-neutral-300 flex  mt-4 font-normal   md:text-lg  text-justify items-start px-[4rem]  p-[2rem] lg:px-[10rem]"
         />
 
-        <div className="   grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 ">
-          <div className="lg:row-[1] row-[2]  md:mb-[3rem] md:ml-0  lg:pl-[9rem]  ">
+        <div className="     ">
+          <div className="  md:mb-[3rem] md:ml-0  flex  flex-col justify-center items-center ">
 
-            <TextGenerateEffect words={" WHY CHOOSE ME ?"} className=" lg:row-[1] row-[2] flex justify-center items-center  lg:text-justify text-center lg:justify-start  pl-1 pr-1   my-4   md:text-lg  mx-auto  font-bold italic" />
+            <TextGenerateEffect words={" WHY CHOOSE ME ?"} className="  flex justify-center items-center   text-center  pl-1 pr-1   my-4   md:text-lg  mx-auto  font-bold italic" />
 
-            <div className="text-zinc-400 ">
-              <TextGenerateEffect words={"• Can create complete React Web Application."} className=" lg:row-[1] row-[2]    pl-1 pr-1 flex  mt-4 font-normal  md:text-lg  lg:text-justify text-center items-start" />
+            <div className="text-zinc-400  lg:w-[80%] flex justify-center items-center flex-col">
 
-              <TextGenerateEffect words={"• Can create landing pages with React JS."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
+              <TextGenerateEffect words={"• Skilled in designing landing pages with React JS."} className=" lg:row-[1] row-[2]    pl-1 pr-1 flex  mt-4 font-normal  md:text-lg  lg:text-justify text-center items-start" />
 
-              <TextGenerateEffect words={"• Bug fixing of your existing React Site."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
-              <TextGenerateEffect words={"• Can create fast-performing Web App."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
-              <TextGenerateEffect words={"• Add new features in your existing React Application."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
-              <TextGenerateEffect words={"• Can create Responsive React App."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
+              <TextGenerateEffect words={"• Experienced in bug fixing and optimizing your React site."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
 
-              <TextGenerateEffect words={"• Can create backend and frontend with React JS and Node JS."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg lg:text-justify text-center items-start" />
+              <TextGenerateEffect words={"• Proficient in building fully functional React-based web applications."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
+              <TextGenerateEffect words={"• Upgrade your React application with the addition of new functionalities."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
+
+              <TextGenerateEffect words={"• Capable of architecting and implementing both frontend and backend functionalities using React JS and Node JS."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg lg:text-justify text-center items-start" />
+              <TextGenerateEffect words={"• I specialize in developing React applications that are responsive and adaptive."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
+
               <TextGenerateEffect words={"• Convert your UI Design Figma/XD to real site with React JS."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg lg:text-justify text-center items-start" />
-              <TextGenerateEffect words={"• Will complete your work on or before deadline."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg lg:text-justify text-center items-start" />
-
+              <TextGenerateEffect words={"• I prioritize the timely completion of work."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg lg:text-justify text-center items-start" />
+              <TextGenerateEffect words={"• Can create fast-performing web apps."} className=" lg:row-[1] row-[2]   pl-1 pr-1 flex  font-normal  md:text-lg  lg:text-justify text-center items-start" />
             </div>
 
           </div>
 
-          <div className=" md:mt-[2rem] flex justify-center items-start">
+          {/* <div className=" md:mt-[2rem] flex justify-center items-start">
             <WobbleCard containerClassName="col-span-1 ">
               <Image
                 src="/courses/profile-img.jpg"
@@ -91,7 +92,7 @@ function About() {
               />
             </WobbleCard>
 
-          </div>
+          </div> */}
         </div>
 
         <div className=" ">

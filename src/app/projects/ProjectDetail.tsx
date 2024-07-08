@@ -12,13 +12,19 @@ export default function ProjectDetail({ detail, project }: any) {
         <TextGenerateEffect words={project?.title || ""} className=" lg:row-[1] row-[2] inline-block pl-1 pr-1 text-neutral-200   font-normal text-base   mx-auto text-justify items-start" />
       </div>
 
-      <div className="">
-        {detail?.clientName?.length ? <TextGenerateEffect words={"Client: "} className="inline-block pl-1 pr-1 text-neutral-200   font-bold text-base   mx-auto text-justify items-start"
-        /> : null}
+      {detail?.clientName?.length ?
+        <div className="">
+          <TextGenerateEffect words={"Client: "} className="inline-block pl-1 pr-1 text-neutral-200   font-bold text-base   mx-auto text-justify items-start"
+          />
 
-        <TextGenerateEffect words={detail?.clientName || detail?.firstPara || ""} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-200    font-normal text-base  inline-block mx-auto text-justify items-start" />
+          <TextGenerateEffect words={detail?.clientName || ""} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-200    font-normal text-base  inline-block mx-auto text-justify items-start" />
 
-      </div>
+        </div>
+        : <div className="">
+
+          <TextGenerateEffect words={detail?.firstPara || ""} className=" lg:row-[1] row-[2]  pl-1 pr-1 text-neutral-200    font-normal text-base  inline-block mx-auto text-justify items-start" />
+
+        </div>}
 
       <TextGenerateEffect words={"Tools: "} className=" pl-1 pr-1 text-neutral-200   font-bold text-base   mx-auto text-justify items-start"
       />

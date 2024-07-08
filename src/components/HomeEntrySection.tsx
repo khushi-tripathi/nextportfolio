@@ -37,7 +37,7 @@ function HomeEntrySection() {
 
         <p
           className="mt-4 font-normal text-sm md:text-lg text-neutral-300 max-w-2xl mx-auto"
-        >Analytical, adaptable, goal-oriented, highly determined, detail-oriented professional and exceptional to analyze information in a structured and logical way. </p>
+        >Highly determined and adaptable professional with a goal-oriented mindset, recognized for exceptional analytical skills in structured, logical information analysis. </p>
         <div className="mt-4">
           <Link href={"/projects"}>
             <Button
